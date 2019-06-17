@@ -59,7 +59,6 @@ class DefaultJsonParser implements JsonParser {
 
 	@Override
 	public Event next() {
-		lexer.scan();
-		return null;
+		return lexer.next();
 	}
 }

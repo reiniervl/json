@@ -190,6 +190,8 @@ class LocationReader extends FilterReader {
 			this.line = location.line;
 			this.column = location.column;
 			this.offset = location.offset;
+			this.mark = location.mark;
+			this.carriageReturn = location.carriageReturn;
 		}
 
 		void addLine() { addLine(1); }
