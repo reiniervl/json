@@ -1,4 +1,6 @@
-package com.rvlstudio.json;
+package com.rvlstudio.json.stream;
+
+import com.rvlstudio.json.JsonValue;
 
 public interface JsonGenerator {
 	void close();

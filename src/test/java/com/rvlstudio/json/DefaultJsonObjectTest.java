@@ -1,5 +1,6 @@
 package com.rvlstudio.json;
 
+import com.rvlstudio.json.stream.JsonParser;
 import org.junit.Test;
 
 import java.io.FileReader;

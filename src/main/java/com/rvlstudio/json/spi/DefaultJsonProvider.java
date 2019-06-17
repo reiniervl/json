@@ -1,6 +1,10 @@
 package com.rvlstudio.json.spi;
 
 import com.rvlstudio.json.*;
+import com.rvlstudio.json.stream.JsonGenerator;
+import com.rvlstudio.json.stream.JsonGeneratorFactory;
+import com.rvlstudio.json.stream.JsonParser;
+import com.rvlstudio.json.stream.JsonParserFactory;
 
 import java.io.InputStream;
 import java.io.OutputStream;

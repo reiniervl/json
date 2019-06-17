@@ -1,7 +1,7 @@
 package com.rvlstudio.json.spi;
 
-import com.rvlstudio.json.JsonLocation;
-import com.rvlstudio.json.JsonParser;
+import com.rvlstudio.json.stream.JsonLocation;
+import com.rvlstudio.json.stream.JsonParser;
 
 import java.io.*;
 import java.math.BigDecimal;

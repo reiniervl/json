@@ -1,6 +1,6 @@
 package com.rvlstudio.json.spi;
 
-import com.rvlstudio.json.JsonLocation;
+import com.rvlstudio.json.stream.JsonLocation;
 
 class DefaultJsonLocation implements JsonLocation {
 	private int line, column, offset;

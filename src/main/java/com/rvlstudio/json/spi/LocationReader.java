@@ -1,7 +1,7 @@
 package com.rvlstudio.json.spi;
 
 
-import com.rvlstudio.json.JsonLocation;
+import com.rvlstudio.json.stream.JsonLocation;
 
 import java.io.*;
 import java.util.LinkedList;

@@ -1,4 +1,4 @@
-package com.rvlstudio.json;
+package com.rvlstudio.json.stream;
 
 public interface JsonLocation {
 	long	getColumnNumber();

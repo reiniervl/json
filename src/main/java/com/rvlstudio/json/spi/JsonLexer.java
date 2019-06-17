@@ -1,6 +1,6 @@
 package com.rvlstudio.json.spi;
 
-import com.rvlstudio.json.JsonParser;
+import com.rvlstudio.json.stream.JsonParser;
 
 import java.io.IOException;
 import java.io.Reader;
@@ -39,6 +39,7 @@ class JsonLexer implements Iterator<JsonParser.Event> {
 
 	@Override
 	public JsonParser.Event next() {
-		
+		scan();
+		return JsonParser.Event.START_OBJECT;
 	}
 }
